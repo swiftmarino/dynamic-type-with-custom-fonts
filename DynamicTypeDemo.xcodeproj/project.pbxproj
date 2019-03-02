@@ -14,6 +14,9 @@
 		754CB7B3222A51E600097CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7B1222A51E600097CFA /* LaunchScreen.storyboard */; };
 		754CB7BE222A51E600097CFA /* DynamicTypeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB7BD222A51E600097CFA /* DynamicTypeDemoTests.swift */; };
 		754CB7C9222A51E600097CFA /* DynamicTypeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB7C8222A51E600097CFA /* DynamicTypeDemoUITests.swift */; };
+		754CB7DA222A529400097CFA /* Monster AG.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7D9222A529400097CFA /* Monster AG.ttf */; };
+		754CB7DC222A529D00097CFA /* Jurassic Park.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7DB222A529D00097CFA /* Jurassic Park.ttf */; };
+		754CB7DE222A52B100097CFA /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7DD222A52B100097CFA /* Starjedi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		754CB7C4222A51E600097CFA /* DynamicTypeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754CB7C8222A51E600097CFA /* DynamicTypeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeDemoUITests.swift; sourceTree = "<group>"; };
 		754CB7CA222A51E600097CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754CB7D9222A529400097CFA /* Monster AG.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monster AG.ttf"; sourceTree = "<group>"; };
+		754CB7DB222A529D00097CFA /* Jurassic Park.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jurassic Park.ttf"; sourceTree = "<group>"; };
+		754CB7DD222A52B100097CFA /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		754CB7A7222A51E400097CFA /* DynamicTypeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				754CB7D6222A525300097CFA /* Fonts */,
 				754CB7A8222A51E400097CFA /* AppDelegate.swift */,
 				754CB7AA222A51E400097CFA /* ViewController.swift */,
 				754CB7AC222A51E400097CFA /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				754CB7CA222A51E600097CFA /* Info.plist */,
 			);
 			path = DynamicTypeDemoUITests;
+			sourceTree = "<group>";
+		};
+		754CB7D6222A525300097CFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				754CB7DB222A529D00097CFA /* Jurassic Park.ttf */,
+				754CB7DD222A52B100097CFA /* Starjedi.ttf */,
+				754CB7D9222A529400097CFA /* Monster AG.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,9 @@
 				754CB7B3222A51E600097CFA /* LaunchScreen.storyboard in Resources */,
 				754CB7B0222A51E600097CFA /* Assets.xcassets in Resources */,
 				754CB7AE222A51E400097CFA /* Main.storyboard in Resources */,
+				754CB7DA222A529400097CFA /* Monster AG.ttf in Resources */,
+				754CB7DE222A52B100097CFA /* Starjedi.ttf in Resources */,
+				754CB7DC222A529D00097CFA /* Jurassic Park.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
