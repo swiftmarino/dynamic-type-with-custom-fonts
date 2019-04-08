@@ -14,9 +14,13 @@
 		754CB7B3222A51E600097CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7B1222A51E600097CFA /* LaunchScreen.storyboard */; };
 		754CB7BE222A51E600097CFA /* DynamicTypeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB7BD222A51E600097CFA /* DynamicTypeDemoTests.swift */; };
 		754CB7C9222A51E600097CFA /* DynamicTypeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB7C8222A51E600097CFA /* DynamicTypeDemoUITests.swift */; };
-		754CB7DA222A529400097CFA /* Monster AG.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7D9222A529400097CFA /* Monster AG.ttf */; };
-		754CB7DC222A529D00097CFA /* Jurassic Park.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7DB222A529D00097CFA /* Jurassic Park.ttf */; };
-		754CB7DE222A52B100097CFA /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 754CB7DD222A52B100097CFA /* Starjedi.ttf */; };
+		7596DA24225AB8FF00557F35 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596DA23225AB8FF00557F35 /* CustomFont.swift */; };
+		7596DA26225AD40100557F35 /* UIFont+Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596DA25225AD40100557F35 /* UIFont+Scalable.swift */; };
+		7596DA28225AD47000557F35 /* UIFont+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596DA27225AD47000557F35 /* UIFont+Optional.swift */; };
+		7596DA2A225AD49E00557F35 /* UILabel+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596DA29225AD49E00557F35 /* UILabel+Factory.swift */; };
+		7596DA2B225AD52D00557F35 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7596DA22225AB87D00557F35 /* NunitoSans-Bold.ttf */; };
+		7596DA2C225AD54000557F35 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7596DA21225AB87600557F35 /* NunitoSans-SemiBold.ttf */; };
+		7596DA2D225AD54300557F35 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7596DA20225AB87600557F35 /* NunitoSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +54,13 @@
 		754CB7C4222A51E600097CFA /* DynamicTypeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754CB7C8222A51E600097CFA /* DynamicTypeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeDemoUITests.swift; sourceTree = "<group>"; };
 		754CB7CA222A51E600097CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		754CB7D9222A529400097CFA /* Monster AG.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monster AG.ttf"; sourceTree = "<group>"; };
-		754CB7DB222A529D00097CFA /* Jurassic Park.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jurassic Park.ttf"; sourceTree = "<group>"; };
-		754CB7DD222A52B100097CFA /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		7596DA20225AB87600557F35 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		7596DA21225AB87600557F35 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		7596DA22225AB87D00557F35 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		7596DA23225AB8FF00557F35 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		7596DA25225AD40100557F35 /* UIFont+Scalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Scalable.swift"; sourceTree = "<group>"; };
+		7596DA27225AD47000557F35 /* UIFont+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Optional.swift"; sourceTree = "<group>"; };
+		7596DA29225AD49E00557F35 /* UILabel+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Factory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				754CB7D6222A525300097CFA /* Fonts */,
 				754CB7A8222A51E400097CFA /* AppDelegate.swift */,
 				754CB7AA222A51E400097CFA /* ViewController.swift */,
+				7596DA23225AB8FF00557F35 /* CustomFont.swift */,
+				7596DA29225AD49E00557F35 /* UILabel+Factory.swift */,
+				7596DA25225AD40100557F35 /* UIFont+Scalable.swift */,
+				7596DA27225AD47000557F35 /* UIFont+Optional.swift */,
 				754CB7AC222A51E400097CFA /* Main.storyboard */,
 				754CB7AF222A51E600097CFA /* Assets.xcassets */,
 				754CB7B1222A51E600097CFA /* LaunchScreen.storyboard */,
@@ -135,9 +147,9 @@
 		754CB7D6222A525300097CFA /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				754CB7DB222A529D00097CFA /* Jurassic Park.ttf */,
-				754CB7DD222A52B100097CFA /* Starjedi.ttf */,
-				754CB7D9222A529400097CFA /* Monster AG.ttf */,
+				7596DA20225AB87600557F35 /* NunitoSans-Regular.ttf */,
+				7596DA21225AB87600557F35 /* NunitoSans-SemiBold.ttf */,
+				7596DA22225AB87D00557F35 /* NunitoSans-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -246,12 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7596DA2C225AD54000557F35 /* NunitoSans-SemiBold.ttf in Resources */,
+				7596DA2D225AD54300557F35 /* NunitoSans-Regular.ttf in Resources */,
 				754CB7B3222A51E600097CFA /* LaunchScreen.storyboard in Resources */,
 				754CB7B0222A51E600097CFA /* Assets.xcassets in Resources */,
 				754CB7AE222A51E400097CFA /* Main.storyboard in Resources */,
-				754CB7DA222A529400097CFA /* Monster AG.ttf in Resources */,
-				754CB7DE222A52B100097CFA /* Starjedi.ttf in Resources */,
-				754CB7DC222A529D00097CFA /* Jurassic Park.ttf in Resources */,
+				7596DA2B225AD52D00557F35 /* NunitoSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +290,10 @@
 			files = (
 				754CB7AB222A51E400097CFA /* ViewController.swift in Sources */,
 				754CB7A9222A51E400097CFA /* AppDelegate.swift in Sources */,
+				7596DA28225AD47000557F35 /* UIFont+Optional.swift in Sources */,
+				7596DA24225AB8FF00557F35 /* CustomFont.swift in Sources */,
+				7596DA26225AD40100557F35 /* UIFont+Scalable.swift in Sources */,
+				7596DA2A225AD49E00557F35 /* UILabel+Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
